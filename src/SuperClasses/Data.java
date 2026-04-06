@@ -13,7 +13,7 @@ public class Data {
             this.mes = mes;
             this.ano = ano;
         } else {
-            System.out.println("Data inválida. Usando data padrão 1/1/2000.");
+            IO.println("Data inválida. Usando data padrão 1/1/2000.");
             this.dia = 1;
             this.mes = 1;
             this.ano = 2000;
@@ -53,7 +53,7 @@ public class Data {
         if (validaData(dia, this.mes, this.ano)) {
             this.dia = dia;
         } else {
-            System.out.println("Dia inválido para o mês/ano atual.");
+            IO.println("Dia inválido para o mês/ano atual.");
         }
     }
 
@@ -65,7 +65,7 @@ public class Data {
         if (validaData(this.dia, mes, this.ano)) {
             this.mes = mes;
         } else {
-            System.out.println("Mês inválido ou incompatível com o dia atual.");
+            IO.println("Mês inválido ou incompatível com o dia atual.");
         }
     }
 
@@ -77,7 +77,7 @@ public class Data {
         if (validaData(this.dia, this.mes, ano)) {
             this.ano = ano;
         } else {
-            System.out.println("Ano inválido para o dia/mês atual.");
+            IO.println("Ano inválido para o dia/mês atual.");
         }
     }
 

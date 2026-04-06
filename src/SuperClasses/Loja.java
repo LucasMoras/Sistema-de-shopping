@@ -104,7 +104,7 @@ public class Loja {
     public void imprimeProdutos() {
         for (Produto p : estoqueProduto) {
             if (p != null)
-                System.out.println(p);
+                IO.println(p);
         }
     }
 
