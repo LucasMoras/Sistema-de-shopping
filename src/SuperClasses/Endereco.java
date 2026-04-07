@@ -2,13 +2,13 @@ package SuperClasses;
 
 public class Endereco {
 
-    String complemento;
-    String nomeDaRua;
-    String estado;
-    String cidade;
-    String numero;
-    String pais;
-    String cep;
+    private String complemento;
+    private String nomeDaRua;
+    private String estado;
+    private String cidade;
+    private String numero;
+    private String pais;
+    private String cep;
 
     public Endereco(String nomeRua, String cidade, String estado, String pais, String cep, String numero,
             String complemento) {
